@@ -36,6 +36,7 @@ class SearchBar extends Component {
         onSubmit={ this.onFormSubmit } >
         
         <input 
+          autoFocus
           className='form-control'
           placeholder='Get a five-day forecast in your favorities cities.'
           value={ this.state.term }
